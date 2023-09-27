@@ -17,6 +17,11 @@
 		0A0D8B272A0F077D00BAEAF1 /* Finance_SimplifiedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0D8B262A0F077D00BAEAF1 /* Finance_SimplifiedTests.swift */; };
 		0A0D8B312A0F077D00BAEAF1 /* Finance_SimplifiedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0D8B302A0F077D00BAEAF1 /* Finance_SimplifiedUITests.swift */; };
 		0A0D8B332A0F077D00BAEAF1 /* Finance_SimplifiedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0D8B322A0F077D00BAEAF1 /* Finance_SimplifiedUITestsLaunchTests.swift */; };
+		0A1463D92A3159B900E70348 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1463D82A3159B900E70348 /* Extensions.swift */; };
+		0A1463DD2A32344E00E70348 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1463DC2A32344E00E70348 /* Background.swift */; };
+		0A81430E2AAF68D50018ADD0 /* TabViewMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A81430D2AAF68D50018ADD0 /* TabViewMain.swift */; };
+		0AF133C42AAB78B000F699A7 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF133C32AAB78B000F699A7 /* Home.swift */; };
+		0AF133C62AAB796800F699A7 /* Charts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF133C52AAB796800F699A7 /* Charts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		0A0D8B2C2A0F077D00BAEAF1 /* Finance SimplifiedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Finance SimplifiedUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A0D8B302A0F077D00BAEAF1 /* Finance_SimplifiedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finance_SimplifiedUITests.swift; sourceTree = "<group>"; };
 		0A0D8B322A0F077D00BAEAF1 /* Finance_SimplifiedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finance_SimplifiedUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0A1463D82A3159B900E70348 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		0A1463DC2A32344E00E70348 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		0A81430D2AAF68D50018ADD0 /* TabViewMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewMain.swift; sourceTree = "<group>"; };
+		0AF133C32AAB78B000F699A7 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		0AF133C52AAB796800F699A7 /* Charts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Charts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +111,8 @@
 		0A0D8B132A0F077B00BAEAF1 /* Finance Simplified */ = {
 			isa = PBXGroup;
 			children = (
+				0A5F11D12A819FA70072666D /* UI_Tools */,
 				0A0D8B162A0F077B00BAEAF1 /* ContentView.swift */,
-				0A0D8B142A0F077B00BAEAF1 /* Finance_SimplifiedApp.swift */,
 				0A0D42832A112C6100BEC441 /* GoogleService-Info.plist */,
 				0A0D8B182A0F077C00BAEAF1 /* Assets.xcassets */,
 				0A0D8B1A2A0F077C00BAEAF1 /* Finance_Simplified.entitlements */,
@@ -134,6 +144,19 @@
 				0A0D8B322A0F077D00BAEAF1 /* Finance_SimplifiedUITestsLaunchTests.swift */,
 			);
 			path = "Finance SimplifiedUITests";
+			sourceTree = "<group>";
+		};
+		0A5F11D12A819FA70072666D /* UI_Tools */ = {
+			isa = PBXGroup;
+			children = (
+				0A0D8B142A0F077B00BAEAF1 /* Finance_SimplifiedApp.swift */,
+				0A1463D82A3159B900E70348 /* Extensions.swift */,
+				0A1463DC2A32344E00E70348 /* Background.swift */,
+				0AF133C32AAB78B000F699A7 /* Home.swift */,
+				0AF133C52AAB796800F699A7 /* Charts.swift */,
+				0A81430D2AAF68D50018ADD0 /* TabViewMain.swift */,
+			);
+			path = UI_Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,8 +297,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AF133C62AAB796800F699A7 /* Charts.swift in Sources */,
+				0AF133C42AAB78B000F699A7 /* Home.swift in Sources */,
 				0A0D8B172A0F077B00BAEAF1 /* ContentView.swift in Sources */,
+				0A81430E2AAF68D50018ADD0 /* TabViewMain.swift in Sources */,
+				0A1463D92A3159B900E70348 /* Extensions.swift in Sources */,
 				0A0D8B152A0F077B00BAEAF1 /* Finance_SimplifiedApp.swift in Sources */,
+				0A1463DD2A32344E00E70348 /* Background.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
